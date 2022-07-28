@@ -1,0 +1,38 @@
+.css_variables{
+    --padding-top-404: 3rem;
+    --padding-bottom-404: 3rem;
+    --pic-width-404: 65%;
+}
+
+.pageNotFoundSection {
+    padding-top: var(--padding-top-404) !important;
+    padding-bottom: var(--padding-bottom-404) !important;
+}
+
+.not-found-pic {
+    width: var(--pic-width-404);
+}
+
+@media only screen and (min-width: 590px) and (max-width: 700px) {
+    .css_variables {
+        --padding-top-404: 3rem;
+        --padding-bottom-404: 3rem;
+        --pic-width-404: 70%;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 590px) {
+    .css_variables {
+        --padding-top-404: 5rem;
+        --padding-bottom-404: 3rem;
+        --pic-width-404: 80%;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 420px) {
+    .css_variables {
+        --padding-top-404: 4rem;
+        --padding-bottom-404: 2rem;
+        --pic-width-404: 85%;
+    }
+}

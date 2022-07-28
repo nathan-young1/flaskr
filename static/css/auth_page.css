@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&display=swap');
+/* font-family: 'Source Serif 4', serif; */
+
+:root {
+    --main-color: #AC878A;
+}
+
+.main_div {
+    width: 55%;
+}
+
+.logo {
+    width: 3vw;
+}
+
+.site_name {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.form_header {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.form_div {
+    margin-top: 16vh;
+    width: 47%;
+}
+
+.img_section{
+    width: 45%;
+    height: 100vh !important;
+    object-fit: cover;
+}
+
+input:focus {   
+    border-color: transparent !important;
+    outline: transparent !important;
+    box-shadow: 0 0 0 0.2rem rgba(172, 135, 138, 0.3) !important;
+}
+
+.input-group input, .input-group span{
+    border-radius: 0 !important;
+    border: 0 !important;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+input::placeholder{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.05rem;
+}
+
+.input-group span {
+    background-color: #f6f6f6;
+}
+
+.form_button {
+    width: 10vw;
+    height: 3vw;
+    border: 0;
+    background-color: var(--main-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: 400ms;
+}
+
+.resetpassword_button {
+    width: 15vw !important;
+}
+
+.form_button:hover {
+    background-color: white;
+    color: var(--main-color);
+    box-shadow: 0 0 0 0.2rem rgba(172, 135, 138, 0.3) !important;
+}
+
+.bottom_link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.15rem;
+}
+
+.bottom_link a {
+    font-weight: 600;
+    color: var(--main-color) !important;
+    font-size: 1.15rem;
+}
+
+.bottom_link a.forgot_password{
+    font-weight: 500 !important;
+    font-size: 1rem;
+}

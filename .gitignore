@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+
+/Lib
+/Scripts
+
+/__pycache__
+
+
+/db/secrets.py

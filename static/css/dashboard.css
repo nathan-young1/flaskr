@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&display=swap');
+/* font-family: 'Source Serif 4', serif; */
+
+body {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.profile_pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.username {
+    font-size: 1.2rem;
+}
+
+.main_div {
+    margin-top: 3rem;
+    width: 70%;
+}
+
+.main_div_header {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+input:focus {   
+    border-color: transparent !important;
+    outline: transparent !important;
+    box-shadow: none !important;
+    background-color: #f6f6f6 !important;
+}
+
+.input-group input, .input-group span{
+    border-radius: 0 !important;
+    border: 0 !important;
+    background-color: #f6f6f6;
+}
+
+input::placeholder{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.05rem;
+}
+
+ul {
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+li img {
+    width: 14.5vw;
+}
+
+li div {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background-color: #f6f6f6;
+    padding: 0.4rem 0;
+}
+
+li div span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600 !important;
+    font-size: 1.1rem;
+}
