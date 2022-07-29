@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler())
 logger.setLevel(logging.DEBUG)
 
-def SingletonClass(**kwargs):
+def SingletonClass(*args, **kwargs):
     """
     This method is a class factory.
 
@@ -44,7 +44,7 @@ def SingletonClass(**kwargs):
     """
 
     def MakeSingletonClass(cls: Type)-> Type:
-        instance = cls(**kwargs)
+        instance = cls(*args, **kwargs)
         # Store class instance in [cls.__instance].
         setattr(cls, "__instance", instance)
 
